@@ -10,5 +10,5 @@ build:
 ipython:
 	@docker run -it --rm \
 		--mount type=bind,src=$(PWD),dst=/usr/src/app \
-		advent-of-code-2020 \
+		python-playground \
 		ipython
